@@ -1,0 +1,12 @@
+{
+    "name": "app",
+    "version": "1.0.0",
+    "description": "It's description!",
+    "main": "index.js",
+    "devDependencies": {
+      "electron": "21.0.0"
+    },
+    "scripts": {
+        "start": "electron ."
+    }
+  }
