@@ -8,5 +8,9 @@
     },
     "scripts": {
         "start": "electron ."
+    },
+    "imports": {
+      "#lib/*": "./src/lib/*",
+      "#constants/*": "./src/constants/*"
     }
   }
