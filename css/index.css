@@ -1,9 +1,20 @@
 *{
-    overflow-x: hidden;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+body::-webkit-scrollbar {
+    width: 12px;          
+}
 
+body::-webkit-scrollbar-track {
+    background: #3F5576;       
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #273140;    
+    border-radius: 20px;       
+    border: 3px solid #3F5576;  
+}
 body{
     background-color: #3F5576;
     color: #c1bebe;
@@ -12,7 +23,6 @@ body{
 
 .container{
     padding: 10px 10px 10px 10px;
-    min-height: 100vh;
     
     display: flex;
     justify-content: center;
