@@ -11,6 +11,7 @@
     },
     "imports": {
       "#lib/*": "./src/lib/*",
-      "#constants/*": "./src/constants/*"
+      "#constants/*": "./src/constants/*",
+      "#classes/*": "./src/classes/*/index.js"
     }
   }
