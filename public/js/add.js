@@ -14,12 +14,12 @@
         container.innerHTML +=
         `
             <aside>
-                <div class="element"><big>Name:</big> <span>${data.name}</span> 
+                <big>Name:</big> <span>${data.name}</span> 
                 <big>Versions:</big> <span>${data.version}</span> <br>
                 <big>Main file:</big> <span>${data.main}</span> <br>
                 <big>Dependencies:</big><span>${dependencies}</span> <br>
                 <big>devDependencies:</big><span>${devDependencies}</span> <br>
-                <big>Description:</big> <span>${data.description}</span> </div>
+                <big>Description:</big> <span>${data.description}</span>
             </aside>
         `
 
