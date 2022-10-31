@@ -7,7 +7,7 @@ const fs = require('fs');
 const path = require('path');
 
 
-const indexHTMLPath = path.join(__dirname, 'index.html');
+const indexHTMLPath = path.join(__dirname, 'public/index.html');
 const preloadPath = path.join(__dirname, 'preload.js');
 
 
