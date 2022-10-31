@@ -30,7 +30,7 @@ body{
     flex-direction: column;
 }
 
-.aside{
+aside{
     padding: 25px;
     border-radius: 5px;
     background-color: #273140;
